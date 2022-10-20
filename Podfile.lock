@@ -1,0 +1,134 @@
+PODS:
+  - Alamofire (5.4.4)
+  - BRPickerView (2.8.0):
+    - BRPickerView/AddressPickerView (= 2.8.0)
+    - BRPickerView/Base (= 2.8.0)
+    - BRPickerView/DatePickerView (= 2.8.0)
+    - BRPickerView/StringPickerView (= 2.8.0)
+  - BRPickerView/AddressPickerView (2.8.0):
+    - BRPickerView/Base
+  - BRPickerView/Base (2.8.0)
+  - BRPickerView/DatePickerView (2.8.0):
+    - BRPickerView/Base
+  - BRPickerView/StringPickerView (2.8.0):
+    - BRPickerView/Base
+  - CryptoSwift (1.5.1)
+  - DZNEmptyDataSet (1.8.1)
+  - ESTabBarController-swift (2.8.0)
+  - HandyJSON (5.0.2)
+  - IQKeyboardManagerSwift (6.5.10)
+  - lottie-ios (3.4.3)
+  - LXFProtocolTool/LXFEmptyDataSetable (0.2.0):
+    - DZNEmptyDataSet (~> 1.8.1)
+  - SDWebImage (5.13.2):
+    - SDWebImage/Core (= 5.13.2)
+  - SDWebImage/Core (5.13.2)
+  - SKPhotoBrowser (7.0.0)
+  - SnapKit (5.6.0)
+  - SQLiteRepairKit (1.2.2):
+    - WCDBOptimizedSQLCipher (~> 1.2.0)
+  - SwifterSwift (5.2.0):
+    - SwifterSwift/AppKit (= 5.2.0)
+    - SwifterSwift/CoreAnimation (= 5.2.0)
+    - SwifterSwift/CoreGraphics (= 5.2.0)
+    - SwifterSwift/CoreLocation (= 5.2.0)
+    - SwifterSwift/Dispatch (= 5.2.0)
+    - SwifterSwift/Foundation (= 5.2.0)
+    - SwifterSwift/MapKit (= 5.2.0)
+    - SwifterSwift/SceneKit (= 5.2.0)
+    - SwifterSwift/SpriteKit (= 5.2.0)
+    - SwifterSwift/StoreKit (= 5.2.0)
+    - SwifterSwift/SwiftStdlib (= 5.2.0)
+    - SwifterSwift/UIKit (= 5.2.0)
+  - SwifterSwift/AppKit (5.2.0)
+  - SwifterSwift/CoreAnimation (5.2.0)
+  - SwifterSwift/CoreGraphics (5.2.0)
+  - SwifterSwift/CoreLocation (5.2.0)
+  - SwifterSwift/Dispatch (5.2.0)
+  - SwifterSwift/Foundation (5.2.0)
+  - SwifterSwift/MapKit (5.2.0)
+  - SwifterSwift/SceneKit (5.2.0)
+  - SwifterSwift/SpriteKit (5.2.0)
+  - SwifterSwift/StoreKit (5.2.0)
+  - SwifterSwift/SwiftStdlib (5.2.0)
+  - SwifterSwift/UIKit (5.2.0)
+  - SwiftyJSON (5.0.1)
+  - WCDB.swift (1.0.8.2):
+    - SQLiteRepairKit (~> 1.2.0)
+    - WCDBOptimizedSQLCipher (~> 1.2.0)
+  - WCDBOptimizedSQLCipher (1.2.1)
+  - ZLPhotoBrowser (4.3.6):
+    - ZLPhotoBrowser/Core (= 4.3.6)
+  - ZLPhotoBrowser/Core (4.3.6)
+
+DEPENDENCIES:
+  - Alamofire (= 5.4.4)
+  - BRPickerView
+  - CryptoSwift
+  - DZNEmptyDataSet
+  - ESTabBarController-swift
+  - HandyJSON
+  - IQKeyboardManagerSwift
+  - lottie-ios
+  - LXFProtocolTool/LXFEmptyDataSetable
+  - SDWebImage
+  - SKPhotoBrowser (from `https://github.com/suzuki-0000/SKPhotoBrowser.git`, branch `master`)
+  - SnapKit
+  - SwifterSwift
+  - SwiftyJSON
+  - WCDB.swift
+  - ZLPhotoBrowser
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - BRPickerView
+    - CryptoSwift
+    - DZNEmptyDataSet
+    - ESTabBarController-swift
+    - HandyJSON
+    - IQKeyboardManagerSwift
+    - lottie-ios
+    - LXFProtocolTool
+    - SDWebImage
+    - SnapKit
+    - SQLiteRepairKit
+    - SwifterSwift
+    - SwiftyJSON
+    - WCDB.swift
+    - WCDBOptimizedSQLCipher
+    - ZLPhotoBrowser
+
+EXTERNAL SOURCES:
+  SKPhotoBrowser:
+    :branch: master
+    :git: https://github.com/suzuki-0000/SKPhotoBrowser.git
+
+CHECKOUT OPTIONS:
+  SKPhotoBrowser:
+    :commit: 07a4e8954edba3bc0156df67829bb987fb725a50
+    :git: https://github.com/suzuki-0000/SKPhotoBrowser.git
+
+SPEC CHECKSUMS:
+  Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  BRPickerView: a0ff460bf092bc069db5a54153395b1f7e8f5300
+  CryptoSwift: c4f2debceb38bf44c80659afe009f71e23e4a082
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  ESTabBarController-swift: 05593a6ad64700b03c0eb60ff625916370aa4136
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  IQKeyboardManagerSwift: 52962c76ab33532f15ad9f3ff4e5715eda5335bb
+  lottie-ios: 9ae750cdc7820fecbd3c2f0cfc493038208fcdc4
+  LXFProtocolTool: 8d1e53c010f6941c273b9908be24bfc20d1ce2f2
+  SDWebImage: 72f86271a6f3139cc7e4a89220946489d4b9a866
+  SKPhotoBrowser: 6aaa8f232752e87c7e76bace183bead0a137097d
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SQLiteRepairKit: 35aaae5a8838adb85f5b1eb4d796055be6060a4b
+  SwifterSwift: 334181863c416882d97b7a60c05054d9e4d799e2
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  WCDB.swift: 05d509d7a0e60fb6e11c34eb7e4027c0fab5849f
+  WCDBOptimizedSQLCipher: baf44493b0c7a3d49e97bc5b64a3856f6428ddd1
+  ZLPhotoBrowser: 332a6d3c43262bbfd1596a53f5bb9d060360d6b8
+
+PODFILE CHECKSUM: 982ed04cef19c429b41cb67b51d2e0817d5fc489
+
+COCOAPODS: 1.11.2
